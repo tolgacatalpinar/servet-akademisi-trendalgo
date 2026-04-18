@@ -5,43 +5,44 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const PERFORMANCE_DATA = {
   "ABD Borsası": [
-    { asset: "GOLD", performance: 6769, startYear: 1970, hold: 13219 },
-    { asset: "GEV", performance: 540, startYear: 2024, hold: 85 },
-    { asset: "LRCX", performance: 79102, startYear: 1984, hold: 18000 },
-    { asset: "ASML", performance: 23756, startYear: 1995, hold: 12000 },
-    { asset: "ANET", performance: 3017, startYear: 2014, hold: 1500 },
-    { asset: "CVNA", performance: 85610, startYear: 2017, hold: 600 },
-    { asset: "ALAB", performance: 288, startYear: 2024, hold: 40 },
-    { asset: "RKLB", performance: 2659, startYear: 2020, hold: 25 },
-    { asset: "COIN", performance: 285, startYear: 2021, hold: 30 },
-    { asset: "SOFI", performance: 538, startYear: 2020, hold: 15 },
-    { asset: "NFLX", performance: 707668, startYear: 2002, hold: 55000 },
-    { asset: "AMD", performance: 25656516, startYear: 1973, hold: 45000 },
-    { asset: "SHOP", performance: 8788, startYear: 2015, hold: 3500 },
-    { asset: "NOW", performance: 1874, startYear: 2013, hold: 1200 },
-    { asset: "NET", performance: 2424, startYear: 2020, hold: 400 },
-    { asset: "IREN", performance: 4425, startYear: 2021, hold: 20 },
-    { asset: "HUT", performance: 3088, startYear: 2018, hold: 150 },
-    { asset: "NNE", performance: 704, startYear: 2024, hold: 120 },
-    { asset: "HIMS", performance: 1202, startYear: 2020, hold: 50 },
-    { asset: "IONQ", performance: 474, startYear: 2021, hold: -40 },
-    { asset: "NVDA", performance: 1030903, startYear: 1999, hold: 350000 },
-    { asset: "TSLA", performance: 45649, startYear: 2010, hold: 25000 },
-    { asset: "PLTR", performance: 1973, startYear: 2021, hold: 180 },
-    { asset: "SNDK", performance: 1568, startYear: 2025, hold: 15 },
-    { asset: "MSTR", performance: 78691, startYear: 1998, hold: 15000 },
-    { asset: "MU", performance: 588063, startYear: 1984, hold: 12000 },
+    { asset: "GOLD", performance: 6769, startYear: 1970, hold: 13196 },
+    { asset: "GEV", performance: 540, startYear: 2024, hold: 468 },
+    { asset: "LRCX", performance: 79102, startYear: 1985, hold: 120809 },
+    { asset: "ASML", performance: 23756, startYear: 1996, hold: 25551 },
+    { asset: "ANET", performance: 3017, startYear: 2015, hold: 4000 },
+    { asset: "CVNA", performance: 85610, startYear: 2017, hold: 2760 },
+    { asset: "ALAB", performance: 288, startYear: 2024, hold: 140 },
+    { asset: "RKLB", performance: 2659, startYear: 2021, hold: 729 },
+    { asset: "COIN", performance: 285, startYear: 2021, hold: -17 },
+    { asset: "SOFI", performance: 538, startYear: 2021, hold: 14 },
+    { asset: "NFLX", performance: 707668, startYear: 2002, hold: 133233 },
+    { asset: "AMD", performance: 25656516, startYear: 1973, hold: 89577 },
+    { asset: "SHOP", performance: 8788, startYear: 2016, hold: 4417 },
+    { asset: "NOW", performance: 1874, startYear: 2013, hold: 1241 },
+    { asset: "NET", performance: 2424, startYear: 2020, hold: 765 },
+    { asset: "IREN", performance: 4425, startYear: 2022, hold: 329 },
+    { asset: "HUT", performance: 3088, startYear: 2018, hold: 363 },
+    { asset: "NNE", performance: 704, startYear: 2024, hold: 415 },
+    { asset: "HIMS", performance: 1202, startYear: 2020, hold: 177 },
+    { asset: "IONQ", performance: 474, startYear: 2021, hold: 292 },
+    { asset: "NVDA", performance: 1030903, startYear: 1999, hold: 454445 },
+    { asset: "TSLA", performance: 45649, startYear: 2010, hold: 30511 },
+    { asset: "PLTR", performance: 1973, startYear: 2021, hold: 568 },
+    { asset: "SNDK", performance: 1568, startYear: 2025, hold: 1768 },
+    { asset: "MSTR", performance: 78691, startYear: 1998, hold: 817 },
+    { asset: "MU", performance: 588063, startYear: 1984, hold: 16591 },
   ],
   "Kripto": [
-    { asset: "BTC", performance: 8963, startYear: 2017, hold: 9500 },
-    { asset: "ETH", performance: 17456, startYear: 2017, hold: 15000 },
-    { asset: "SOL", performance: 39536, startYear: 2020, hold: 35000 },
-    { asset: "PEPE", performance: 3162, startYear: 2023, hold: 12000 },
-    { asset: "DOGE", performance: 24735, startYear: 2019, hold: 22000 },
-    { asset: "SUI", performance: 693, startYear: 2023, hold: 550 },
-    { asset: "XRP", performance: 5554, startYear: 2018, hold: 150 },
-    { asset: "ADA", performance: 11956, startYear: 2018, hold: 2500 },
-    { asset: "ENS", performance: 782, startYear: 2021, hold: 120 },
+    { asset: "BTC", performance: 8963, startYear: 2017, hold: 1743 },
+    { asset: "ETH", performance: 17456, startYear: 2017, hold: 677 },
+    { asset: "SOL", performance: 39536, startYear: 2020, hold: 4535 },
+    { asset: "RAY", performance: 456, startYear: 2021, hold: -93 },
+    { asset: "PEPE", performance: 3162, startYear: 2023, hold: 223 },
+    { asset: "DOGE", performance: 24735, startYear: 2019, hold: 3746 },
+    { asset: "SUI", performance: 693, startYear: 2023, hold: 44 },
+    { asset: "XRP", performance: 5554, startYear: 2018, hold: 138 },
+    { asset: "ADA", performance: 11956, startYear: 2018, hold: 63 },
+    { asset: "ENS", performance: 782, startYear: 2021, hold: -84 },
   ],
   "İstanbul Borsası": [
     { asset: "BIST 100", performance: 312.4, startYear: "Saatlik Grafik", hold: 250 },
@@ -173,11 +174,13 @@ const AssetPerformance = () => {
                               <div className="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
                                 <motion.div 
                                   initial={{ width: 0 }}
-                                  whileInView={{ width: getWidth(row.hold as number) }}
-                                  className="h-full bg-white/90"
+                                  whileInView={{ width: getWidth(Math.abs(row.hold as number)) }}
+                                  className={`h-full ${ (row.hold as number) < 0 ? 'bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]' : 'bg-white/90' }`}
                                 />
                               </div>
-                              <span className="text-[10px] font-medium text-white/70 w-12 shrink-0">%{new Intl.NumberFormat('tr-TR').format(row.hold as number)}</span>
+                              <span className={`text-[10px] font-medium w-12 shrink-0 ${ (row.hold as number) < 0 ? 'text-red-500' : 'text-white/70' }`}>
+                                %{new Intl.NumberFormat('tr-TR').format(row.hold as number)}
+                              </span>
                             </div>
                           </div>
                         </td>
